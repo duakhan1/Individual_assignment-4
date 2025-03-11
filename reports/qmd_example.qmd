@@ -37,16 +37,16 @@ and the following R packages were used to perform the analysis:
 knitr::include_graphics('../results/horse_pops_plot.png')
 ```
 
-**Figure 1:** Horse populations for all provinces in Canada from 1906 - 1972.
+As seen in @fig-horse-pop, horse populations for all provinces in Canada from 1906 - 1972 are displayed.
 
-We can see from Figure 1 that Ontario, Saskatchewan, and Alberta 
+We can see from @fig-horse-pop that Ontario, Saskatchewan, and Alberta 
 have had the highest horse populations in Canada.  
 All provinces have had a decline in horse populations since 1940.  
 This is likely due to the rebound of the Canadian automotive industry 
 after the Great Depression and the Second World War.  
 An interesting follow-up visualization would be car sales per year 
 for each province over the time period visualized above 
-to further support this hypothesis.
+to further support this hypothesis (see @fig-horse-pop).
 
 Suppose we were interested in looking more closely at the province 
 with the highest spread (in terms of standard deviation) of horse populations.  
@@ -68,15 +68,15 @@ Note that we define standard deviation (of a sample) as:
 
 $$s = \sqrt{\frac{\sum_{i=1}^N (x_i - \overline{x})^2}{N-1} }$$
 
-Additionally, note that in @tbl-horses-sd we consider the sample standard deviation of the number of horses during the same time span as Figure 1.
+Additionally, note that in @tbl-horses-sd we consider the sample standard deviation of the number of horses during the same time span as @fig-horse-pop.
 
 ```{r fig-largest-sd, fig.cap='Horse populations for the province with the largest standard deviation.', out.width='65%'}
 knitr::include_graphics('../results/horse_pop_plot_largest_sd.png')
 ```
 
-**Figure 2:** Horse populations for the province with the largest standard deviation.
+As shown in @fig-largest-sd, horse populations for the province with the largest standard deviation are displayed.
 
-In Figure 2, we zoom in and look at the province of **???**, which had the largest spread of values in terms of standard deviation.
+In @fig-largest-sd, we zoom in and look at the province of **???**, which had the largest spread of values in terms of standard deviation.
 
 # References
 

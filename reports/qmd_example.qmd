@@ -33,7 +33,7 @@ and the following R packages were used to perform the analysis:
 
 # Results
 
-```{r fig-horse-pop, fig.cap='Horse populations for all provinces in Canada from 1906 - 1972.'}
+```{r fig-horse-pop, fig.cap='Horse populations for all provinces in Canada from 1906 - 1972.', echo=FALSE}
 knitr::include_graphics('../results/horse_pops_plot.png')
 ```
 

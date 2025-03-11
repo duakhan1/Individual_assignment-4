@@ -76,7 +76,7 @@ knitr::include_graphics('../results/horse_pop_plot_largest_sd.png')
 
 As shown in @fig-largest-sd, horse populations for the province with the largest standard deviation are displayed.
 
-In @fig-largest-sd, we zoom in and look at the province of **???**, which had the largest spread of values in terms of standard deviation.
+In @fig-largest-sd, we zoom in and look at the province of **`r largest_sd`**, which had the largest spread of values in terms of standard deviation.
 
 # References
 
